@@ -18,10 +18,6 @@ The Digital Clock is a web-based application built with HTML, CSS, and JavaScrip
 3. **Date and Environment**: The app calculates the current date and displays fake temperature and humidity values, adding an engaging layer of interactivity.
 4. **Responsive Styling**: CSS ensures the UI is adaptable to any screen size, offering an optimal viewing experience.
 
-## Screenshot
-
-![preview](https://github.com/user-attachments/assets/aa3f62b9-f599-41c2-a166-8af28536a988)
-
 ## Installation
 
 Follow these steps to set up the Digital Clock application locally:
