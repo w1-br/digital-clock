@@ -2,15 +2,15 @@
 
 const hourId = document.getElementById("hour");
 const minuteId = document.getElementById("minute");
-const secondId = document.getElementById("second");
+//const secondId = document.getElementById("second");
 const ampmId = document.getElementById("ampm");
-const temperatureId = document.getElementById("temperature");
-const temperatureDot = document.getElementById("temperatureFloat");
+//const temperatureId = document.getElementById("temperature");
+//const temperatureDot = document.getElementById("temperatureFloat");
 const dateId = document.getElementById("date");
 const monthNumber = document.getElementById("monthNumber");
 const monthId = document.getElementById("month");
 const yearId = document.getElementById("year");
-const humidityId = document.getElementById("humidity");
+//const humidityId = document.getElementById("humidity");
 
 function months(index) {
   const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
@@ -28,7 +28,7 @@ function currentTime() {
 
   hourId.textContent = String(hours).padStart(2, "0");
   minuteId.textContent = String(minutes).padStart(2, "0");
-  secondId.textContent = String(seconds).padStart(2, "0");
+  //secondId.textContent = String(seconds).padStart(2, "0");
   ampmId.textContent = ampm;
 
   const date = current.getDate();
@@ -39,23 +39,9 @@ function currentTime() {
   yearId.textContent = current.getFullYear();
 };
 
-function currentWeather() {
-  // Fake temperature with random values
-  const temperature = (Math.random() * 10 + 70).toFixed(1);
-  // Fake humidity with random values
-  const humidity = Math.floor(Math.random() * 10 + 50);
-
-  const [temperatureWhole, temperatureDecimal] = temperature.split(".");
-  temperatureId.textContent = temperatureWhole;
-  temperatureDot.textContent = "." + temperatureDecimal;
-
-  humidityId.textContent = humidity;
-};
-
 setInterval(() => {
   currentTime();
-  currentWeather();
 }, 1000);
 
 currentTime();
-currentWeather();
+
