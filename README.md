@@ -1,4 +1,4 @@
-# Digital Clock
+# Digital Clock (originally made by ryzmdn!)
 
 The Digital Clock is a web-based application built with HTML, CSS, and JavaScript. It displays real-time dynamic information such as the current time (hours, minutes, and seconds), AM/PM status, date, month, year, and simulated environmental data like fake temperature and humidity.
 
@@ -53,14 +53,6 @@ This project uses the following technologies:
 - JavaScript: Handles real-time clock updates, date calculations, and fake environmental data generation.
 - No external libraries or frameworks are required.
 
-## Support
+## Credit
 
-For support, feel free to contact us at `riybuzniz@gmail.com`.
-
-## Feedback
-
-We value your feedback! If you have suggestions for improvement or additional features, please reach out to us at `riybuzniz@gmail.com`.
-
-## License
-
-No License.
+This was originally made by ryzmdn!
